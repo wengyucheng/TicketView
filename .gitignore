@@ -11,3 +11,14 @@
 /build
 /captures
 .externalNativeBuild
+build.gradle
+gradlew.bat
+gradlew
+gradle.properties
+app/.gitignore
+settings.gradle
+app/proguard-rules.pro
+app/src/androidTest/java/com/wyc/ticket/ExampleInstrumentedTest.java
+app/src/test/java/com/wyc/ticket/ExampleUnitTest.java
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="15dp"
+        android:background="#FFF"
+        android:gravity="center">
+
+        <View
+            android:id="@+id/event_place_info_left"
+            android:layout_width="5dp"
+            android:layout_height="10dp"
+            android:background="@drawable/start_half_circle_f6_bg" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_toStartOf="@+id/event_place_info_right"
+            android:layout_toEndOf="@+id/event_place_info_left"
+            android:background="@drawable/dash_view"
+            android:layerType="software" />
+
+        <View
+            android:id="@+id/event_place_info_right"
+            android:layout_width="5dp"
+            android:layout_height="10dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/end_half_circle_f6_bg" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#FFF" />
+
+        <com.wyc.ticket.TicketView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            app:backgroundColor="#FFF"
+            app:dashColor="@color/colorE3" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#FFF" />
+
+    </LinearLayout>
+
+</LinearLayout>
